@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
+import 'package:qr_app/imaged.dart';
 
 import 'login.dart';
 
@@ -63,7 +64,9 @@ class _QrScreenState extends State<QrScreen> {
                     foregroundColor: Colors.white,
                     padding: EdgeInsets.all(10.0),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>Imageee()) );
+                  },
                   child: Text(
                     "Scan",
                     style: TextStyle(

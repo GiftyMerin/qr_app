@@ -21,7 +21,7 @@ class _QrAppState extends State<QrApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LogIn(),
+      home: LogIn()
     );
   }
 }
