@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_app/profile.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 import 'package:qr_app/imaged.dart';
 

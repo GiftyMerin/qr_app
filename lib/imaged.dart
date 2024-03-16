@@ -2,6 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
+import 'package:qr_app/profile.dart';
 class Imageee extends StatefulWidget {
   const Imageee({super.key});
 
@@ -32,9 +33,13 @@ class _ImageeeState extends State<Imageee> {
                 }
               },
             ),
-            ElevatedButton(onPressed: (){} ,
+            ElevatedButton(onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>Dp()));
+            } ,
                 child: const Text('navigate',style: TextStyle(fontSize: 14.0),
-            )),
+            ),
+            ),
+
           ],
         ),
       ),

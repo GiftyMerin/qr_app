@@ -11,7 +11,7 @@ class _DpState extends State<Dp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.tealAccent,
+        backgroundColor: Colors.pinkAccent,
         body: Column(
           children: [
             CircleAvatar(
